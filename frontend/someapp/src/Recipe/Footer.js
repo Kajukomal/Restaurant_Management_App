@@ -9,6 +9,8 @@ export default function Footer() {
             <div className="l1"><b>Location</b></div>
             <div className="l1">Urban Estate, Sector-25</div>
             <div className="l1"> Gandhinagar, Gujarat</div>
+            <div className="l1">PinCode : 382016 </div>
+
             <hr/>
     </div>
     <div className="time">

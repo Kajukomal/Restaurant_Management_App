@@ -95,39 +95,39 @@ console.log(result)
               {/* name */}
   <div className="col-md-4">
     <label htmlFor="validationDefault01" className="form-label">Your name</label>
-    <input type="text" className="form-control" id="validationDefault01" placeholder="Mandeep Sallan" value={name} onChange={(e)=>setName(e.target.value)}/>
+    <input type="text" className="form-control" id="validationDefault01" placeholder="Name" value={name} onChange={(e)=>setName(e.target.value)}/>
      {error && !name && <span id="emailHelp" className="form-text" style={{color:'red',fontSize:"15px"}}>Please enter a valid name</span>} 
   </div>
   {/* phone number */}
   <div className="col-md-4">
     <label htmlFor="validationDefault02" className="form-label">Phone Number</label>
-    <input type="number" className="form-control" id="validationDefault02" placeholder="123-456-7890" value={phone} onChange={(e)=>setPhone(e.target.value)}/>
+    <input type="number" className="form-control" id="validationDefault02" placeholder="Phone" value={phone} onChange={(e)=>setPhone(e.target.value)}/>
     {error && !phone && <span id="emailHelp" className="form-text" style={{color:'red',fontSize:"15px"}}>Enter Phone Number</span>} 
       </div>
   {/* email */}
   <div className="col-md-4">
     <label htmlFor="validationDefaultUsername" className="form-label">Email Address</label>
     <div className="input-group">
-      <input type="email" className="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="man67@gmail.com" value={email} onChange={(e)=>setEmail(e.target.value)} />
+      <input type="email" className="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
     </div>
   </div>
   {/* people */}
   <div className="col-md-4">
     <label htmlFor="validationDefault01" className="form-label">No Of People</label>
-    <input type="number" className="form-control" id="validationDefault01" placeholder="79"
+    <input type="number" className="form-control" id="validationDefault01" placeholder=""
     value={people} onChange={(e)=>setPeople(e.target.value)} />
   </div>
   {/* date */}
   <div className="col-md-4">
     <label htmlFor="validationDefault02" className="form-label">Date</label>
-    <input type="date" className="form-control" id="validationDefault02" placeholder="09-jul-2023" value={date} onChange={(e)=>setDate(e.target.value)} />
+    <input type="date" className="form-control" id="validationDefault02" placeholder="" value={date} onChange={(e)=>setDate(e.target.value)} />
     {error && !date && <span id="emailHelp" className="form-text" style={{color:'red',fontSize:"15px"}}>Please enter date</span>} 
   </div>
   {/* Time */}
   <div className="col-md-4">
     <label htmlFor="validationDefaultUsername" className="form-label">Time</label>
     <div className="input-group">
-      <input type="time" className="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="10A.M" value={time} onChange={(e)=>setTime(e.target.value)} />
+      <input type="time" className="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" placeholder="" value={time} onChange={(e)=>setTime(e.target.value)} />
      
     </div>
     {error && !time && <span id="emailHelp" className="form-text" style={{color:'red',fontSize:"15px"}}>Please enter time</span>} 

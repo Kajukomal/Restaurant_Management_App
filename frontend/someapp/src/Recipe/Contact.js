@@ -25,7 +25,7 @@ export default function Contact() {
     
 <Reserve></Reserve>
 
-<p className='m-5' data-aos="fade-right"><b>121 Einstein Loop N, Bronx, NY 10475, United States</b></p>
+<p className='m-5' data-aos="fade-right"><b>Sector 25, Urban Estate , Gandhinagar, Gujarat-382016</b></p>
 
 <div className="container" data-aos="fade-up">
   <div className="row">
